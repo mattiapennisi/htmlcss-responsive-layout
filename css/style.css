@@ -133,7 +133,7 @@ img {
     justify-content: end;
 }
 
-.f-j-sp {
+.f-j-sb {
     justify-content: space-between;
 }
 
@@ -281,8 +281,9 @@ img {
 
 #main {
     width: 100%;
-    background-color: var(--main-bg);
+    box-sizing: border-box;
     padding: 20px;
+    background-color: var(--main-bg);
     margin: auto;
 
     #categ-title {
@@ -306,6 +307,7 @@ img {
         background-color: #fff;
         box-shadow: 1px 1px 3px rgb(203, 203, 203);
         border-radius: 3px;
+        margin-bottom: 20px;
 
         #card-vid {
             max-width: 100%;
@@ -335,15 +337,36 @@ img {
             }
         }
     }
+
+    #share {
+        margin-bottom: 20px;
+
+        .social-link {
+            background-color: #fff;
+            border-radius: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+    }
+
+    #banner {
+        display: none;
+        margin-bottom: 30px;
+    }
+
+
 }
 
 /* Footer */
 
 #footer {
     width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
     background-color: var(--primary);
     color: #fff;
-    padding: 20px;
     font-size: 0.8rem;
 
     #foot-copy {
