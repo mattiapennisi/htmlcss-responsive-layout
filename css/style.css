@@ -284,7 +284,52 @@ img {
     background-color: var(--main-bg);
     padding: 20px;
 
-    
+    #categ-title {
+        margin-bottom: 20px;
+        color: grey;
+        font-size: 0.8rem;
+    }
+
+    #rec-title {
+        margin-bottom: 30px;
+        color: rgb(95, 1, 95);
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
+    #card {
+        background-color: #fff;
+        box-shadow: 1px 1px 3px rgb(203, 203, 203);
+        border-radius: 3px;
+
+        #card-vid {
+            max-width: 100%;
+
+            #emb-vid {
+                max-width: 100%;
+            }
+        }
+
+        #card-desc {
+            padding: 40px;
+
+            #card-list-title {
+                font-size: 1.2rem;
+                margin-bottom: 30px;
+            }
+
+            #card-list {
+
+                li {
+                    margin: 15px 0;
+                }
+
+                li:last-child {
+                    margin: 0;
+                }
+            }
+        }
+    }
 }
 
 /* Footer */
