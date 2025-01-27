@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=font-name);
 
 :root {
-    
+
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
     --title-font: 'Nerko One', cursive;
     --title-color: #ff9614;
@@ -29,62 +29,62 @@ body {
         flex-grow: 1;
         background-color: palevioletred;
     }
-    
+
     .col1 {
         width: calc(100%/12*1);
         background-color: blueviolet;
     }
-    
+
     .col2 {
         width: calc(100%/12*2);
         background-color: brown;
     }
-    
+
     .col3 {
         width: calc(100%/12*3);
         background-color: cornflowerblue;
     }
-    
+
     .col4 {
         width: calc(100%/12*4);
         background-color: aquamarine;
     }
-    
+
     .col5 {
         width: calc(100%/12*5);
         background-color: chocolate;
     }
-    
+
     .col6 {
         width: 50%;
         background-color: darkgoldenrod;
     }
-    
+
     .col7 {
         width: calc(100%/12*7);
         background-color: palegreen;
     }
-    
+
     .col8 {
         width: calc(100%/12*8);
         background-color: paleturquoise;
     }
-    
+
     .col9 {
         width: calc(100%/12*9);
         background-color: darkorchid;
     }
-    
+
     .col10 {
         width: calc(100%/12 *10);
         background-color: darkcyan;
     }
-    
+
     .col11 {
         width: calc(100%/12*11);
         background-color: deepskyblue;
     }
-    
+
     .col12 {
         width: 100%;
         background-color: bisque;
@@ -311,7 +311,7 @@ img {
         background-color: #fff;
         box-shadow: 1px 1px 3px rgb(203, 203, 203);
         border-radius: 3px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
 
         #card-vid {
             max-width: 100%;
@@ -353,7 +353,7 @@ img {
     }
 
     #share {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
 
         .social-link {
             background-color: #fff;
@@ -477,10 +477,10 @@ img {
         #share {
 
             gap: 20px;
-    
+
             a {
                 flex-basis: 20%;
-    
+
                 div {
                     display: none;
                 }
@@ -494,12 +494,14 @@ img {
                 #desc-img {
                     float: left;
                     margin-right: 10px;
+                    margin-bottom: 0px;
                 }
             }
         }
     }
 
 }
+
 /* /Bonus */
 
 @media screen and (min-width: 768px) {
@@ -519,7 +521,7 @@ img {
     #main {
 
         padding: 30px;
-        
+
         #rec-title {
             font-size: 2rem;
 
@@ -549,7 +551,7 @@ img {
         #share {
 
             gap: 20px;
-    
+
             a {
                 flex-basis: 20%;
             }
@@ -602,14 +604,19 @@ img {
             #card-desc {
 
                 width: 30%;
+                line-height: 0.5rem;
+                font-size: 0.7rem;
 
                 ul {
                     display: flex;
                     flex-direction: column;
+                    justify-content: start;
+                    align-items: start;
                     gap: 0px;
 
                     li {
-                        flex-basis: 100%;
+                        width: 100%;
+                        margin: 5px 0;
                     }
                 }
             }
@@ -617,11 +624,11 @@ img {
 
         #share {
             box-sizing: border-box;
-    
+
             .social-link {
                 flex-grow: 1;
                 flex-basis: 100%;
-    
+
                 div {
                     display: inline;
                     font-weight: 500;
