@@ -9,7 +9,7 @@
     --main-bg: #f6f5f3;
 
     * {
-        border: 1px dotted black;
+        /* border: 1px dotted black; */
     }
 }
 
@@ -515,23 +515,46 @@ img {
 
     /* Main */
     #main {
+
+        padding: 30px;
         
         #rec-title {
+            font-size: 2rem;
 
             #rec-title-more {
                 display: inline;
             }
         }
 
-        #share {
-    
-            .social-link {
-                flex-basis: 100%;
-    
-                div {
-                    display: none;
+        #card {
+
+            #card-desc {
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    font-size: 0.9rem;
+
+                    li {
+                        flex-basis: 30%;
+                    }
                 }
             }
+        }
+
+        #share {
+
+            gap: 20px;
+    
+            a {
+                flex-basis: 20%;
+            }
+        }
+
+        #banner {
+            display: block;
         }
     }
 }
@@ -552,6 +575,38 @@ img {
     /* Main */
     #main {
         max-width: 992px;
+
+        #rec-title {
+            font-size: 2.5rem;
+
+            #rec-title-more {
+                display: inline;
+            }
+        }
+
+        #card {
+
+            display: flex;
+
+            #card-vid {
+                width: 70%;
+            }
+
+            #card-desc {
+
+                width: 30%;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0px;
+
+                    li {
+                        flex-basis: 100%;
+                    }
+                }
+            }
+        }
 
         #share {
             box-sizing: border-box;
