@@ -341,6 +341,30 @@ img {
 
 #footer {
     width: 100%;
+    background-color: var(--primary);
+    color: #fff;
+    padding: 20px;
+    font-size: 0.8rem;
+
+    #foot-copy {
+        margin-bottom: 10px;
+    }
+
+    #foot-address {
+        margin-bottom: 10px;
+    }
+
+    #foot-nav {
+
+        ul {
+            gap: 10px
+        }
+
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    }
 }
 
 /* Media queries */
