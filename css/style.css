@@ -283,6 +283,7 @@ img {
     width: 100%;
     background-color: var(--main-bg);
     padding: 20px;
+    margin: auto;
 
     #categ-title {
         margin-bottom: 20px;
@@ -295,6 +296,10 @@ img {
         color: rgb(95, 1, 95);
         font-size: 1.7rem;
         font-weight: 700;
+
+        #rec-title-more {
+            display: none;
+        }
     }
 
     #card {
@@ -350,6 +355,25 @@ img {
 @media screen and (min-width: 768px) {
     body {
         width: 100%;
+    }
+
+    /* Header */
+    #header {
+
+        #title {
+            text-align: left;
+        }
+    }
+
+    /* Main */
+    #main {
+        
+        #rec-title {
+
+            #rec-title-more {
+                display: inline;
+            }
+        }
     }
 }
 
