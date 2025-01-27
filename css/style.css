@@ -9,7 +9,7 @@
     --main-bg: #f6f5f3;
 
     * {
-        border: 1px dotted black;
+        /* border: 1px dotted black; */
     }
 }
 
@@ -281,6 +281,10 @@ img {
 
 #main {
     width: 100%;
+    background-color: var(--main-bg);
+    padding: 20px;
+
+    
 }
 
 /* Footer */
